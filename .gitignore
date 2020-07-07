@@ -19,6 +19,11 @@ target/
 *.iml
 *.ipr
 
+src/test/  # 忽略 src/test/ 目录下的所有文件
+target/    # 忽略 target/ 目录下的所有文件
+build/     # 忽略 build/ 目录下的所有文件
+
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -29,3 +34,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+
